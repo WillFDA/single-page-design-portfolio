@@ -68,8 +68,8 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex h-[364px] lg:w-1/3 gap-6 flex-col sm:flex-row lg:flex-col">
-            <div className="bg-bleu-turquoise w-full h-1/2 rounded-lg relative">
+          <div className="flex h-[364px] sm:h-[182px] lg:h-[364px] lg:w-1/3 gap-6 flex-col sm:flex-row lg:flex-col">
+            <div className="bg-bleu-turquoise w-full h-full rounded-lg relative">
               <Image
                 src="./pattern-photography.svg"
                 width={160}
@@ -81,7 +81,7 @@ const Hero = () => {
                 Photography
               </span>
             </div>
-            <div className="bg-dark-purple w-full h-1/2 rounded-lg relative">
+            <div className="bg-dark-purple w-full h-full rounded-lg relative">
               <Image
                 src="./pattern-motion-graphics.svg"
                 width={160}
