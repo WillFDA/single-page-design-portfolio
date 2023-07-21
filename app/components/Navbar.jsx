@@ -1,25 +1,43 @@
 import Image from "next/image";
 import React from "react";
 import Container from "../Container";
+import Button from "./Button";
 
-const Navbar = () => {
-  return (
-    <Container>
-      <>
-        <section className="flex justify-between py-9">
-          <Image
-            src="./logo.svg"
-            width={64}
-            height={64}
-            alt="Logo single page design portfolio"
-          />
-          <button className="rounded-full px-10 bg-T-black font-bold  hover:bg-light-purple text-T-white">
-            Free Consultation
-          </button>
-        </section>
-      </>
-    </Container>
-  );
+const Navbar = (props) => {
+  const isNav = props.boolean;
+  if (isNav) {
+    return (
+      <Container>
+        <>
+          <nav className="flex justify-between py-9">
+            <Image
+              src="./logo.svg"
+              width={64}
+              height={64}
+              alt="Logo single page design portfolio"
+            />
+            <Button parameters="hover:bg-light-purple bg-T-black" />
+          </nav>
+        </>
+      </Container>
+    );
+  } else {
+    return (
+      <Container>
+        <>
+          <footer className="flex justify-between py-9">
+            <Image
+              src="./logo.svg"
+              width={64}
+              height={64}
+              alt="Logo single page design portfolio"
+            />
+            <Button parameters="hover:bg-light-purple bg-T-black" />
+          </footer>
+        </>
+      </Container>
+    );
+  }
 };
 
 export default Navbar;

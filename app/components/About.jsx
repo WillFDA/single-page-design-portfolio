@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Button from "./Button";
 
 const About = () => {
   return (
@@ -20,9 +21,7 @@ const About = () => {
           designed everything from brand illustrations to complete mobile apps.
           I’m also handy with a camera!
         </p>
-        <button className="bg-rouge-pastel font-semibold text-T-white max-w-fit px-7 py-4 rounded-full hover:bg-orange-pastel md:px-10">
-          Free Consultation
-        </button>
+        <Button parameters="hover:bg-orange-pastel bg-rouge-pastel" />
       </div>
     </section>
   );

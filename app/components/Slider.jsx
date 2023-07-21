@@ -10,11 +10,11 @@ const Slider = () => {
     "/image-slide-5.jpg",
   ];
   return (
-    <section className="w-full mt-36">
+    <section className="w-full mt-36 gap-4 overflow-x-hidden max-w-[1440px] mx-auto">
       <h3 className="text-T-black text-center text-2xl md:text-4xl font-bold">
         My Work
       </h3>
-      <div className="flex">
+      <div className="flex gap-8 mt-20 mb-12">
         {images.map((src, index) => {
           return (
             <Image
@@ -27,7 +27,7 @@ const Slider = () => {
           );
         })}
       </div>
-      <div className="flex justify-center mx-auto gap-4">
+      <div className="flex justify-center mx-auto gap-6">
         <button className="bg-T-black w-16 h-16 rounded-full flex items-center justify-center hover:bg-light-purple">
           <Image
             src="/icon-arrow-left.svg"
