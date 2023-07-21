@@ -9,7 +9,7 @@ const Navbar = (props) => {
     return (
       <Container>
         <>
-          <nav className="flex justify-between py-9">
+          <nav className="flex justify-between py-9 items-center">
             <Image
               src="./logo.svg"
               width={64}
@@ -25,7 +25,7 @@ const Navbar = (props) => {
     return (
       <Container>
         <>
-          <footer className="flex justify-between py-9">
+          <footer className="flex justify-between py-9 items-center">
             <Image
               src="./logo.svg"
               width={64}
