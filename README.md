@@ -4,8 +4,8 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/single-page-design-portfolio-william-b22-wHXrv7]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/single-page-design-portfolio-william-b22-wHXrv7
+- Live Site URL: [Add live site URL here](https://single-page-design-portfolio-william.netlify.app/)
 
 ### Built with
 
